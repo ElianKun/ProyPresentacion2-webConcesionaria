@@ -1,0 +1,68 @@
+
+
+main {
+    background-color: rgb(192, 188, 188); 
+    padding: 1%;
+}
+#contenidoP {
+    background-image: url(/src/assets/logos/imgfondo.webp);
+    
+}
+#menuCatalogo {
+    margin:2%;
+    border-radius: 20px;
+background-color: rgb(161, 159, 159); 
+padding: 1%;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: black;
+}
+a {
+    width: fit-content;
+    margin: auto;
+    align-self:flex-start;
+    color: black;
+    background-color: rgb(129, 125, 125);
+    text-decoration: none;
+    font-weight: 600;}
+a:hover {
+    background-color: rgb(47, 104, 228);
+    font-weight: 700;
+    color: white;
+ font-style: italic;
+ transform: scale(1.0);
+    }
+div h2{
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px; 
+}
+div h2 :hover {
+    transform: scale(1.0);
+    background-color: rgb(59, 224, 236);
+    font-weight: 700;
+}
+div h4 {
+    padding: 1%;
+    text-align: center;
+    text-decoration:underline;}
+#catalogo {
+    padding: 1%;}
+#todos img {
+    width: 20%;
+    height: 40%;
+    object-fit: cover;}
+#carouselExampleAutoplaying img{
+    width: fit-content;
+    object-fit: cover;
+}
+#anuncio {
+    height: fit-content;
+    padding: 2%;}
+#anuncio img {
+    width: fit-content;
+    object-fit: cover;
+}
+#comentario {
+    width: 50%; 
+    margin: 2%;
+}

@@ -1,0 +1,21 @@
+
+header{
+    width: 100%;
+    height: auto;
+    text-align: center; 
+    background-color: rgb(39, 39, 39);
+    color: rgb(179, 174, 174); 
+    margin-bottom: 0%;
+    background-image:url(/src/assets/propaganda/LT1.png);
+}
+nav{
+    padding: 2%;
+}
+button{
+    color: black;
+    background-color: gray;
+    font-weight: 600;
+    margin: 1%;
+}
+
+

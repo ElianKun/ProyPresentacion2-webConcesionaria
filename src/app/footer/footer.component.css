@@ -1,0 +1,27 @@
+
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    background-color: rgb(41, 39, 39);
+    justify-items: stretch;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(245, 235, 235);
+    text-decoration: none;   
+}
+#piedepagina{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;}
+a {
+    color: aliceblue;
+text-decoration: none;
+}
+a :hover {
+    color: rgb(23, 196, 202);
+    transform: scale(1.2);
+}
