@@ -3,13 +3,15 @@ header{
     width: 100%;
     height: auto;
     text-align: center; 
+    align-items: center;
     background-color: rgb(39, 39, 39);
     color: rgb(179, 174, 174); 
     margin-bottom: 0%;
-    background-image:url(/src/assets/propaganda/LT1.png);
+    padding-top: 0%;
+    padding-bottom: 1%;
 }
 nav{
-    padding: 2%;
+    padding: 1%;
 }
 button{
     color: black;
@@ -17,5 +19,9 @@ button{
     font-weight: 600;
     margin: 1%;
 }
-
+.btn-close {
+    background-color: rgb(41, 40, 43);
+    color: black;
+    font-weight: 900;
+}
 

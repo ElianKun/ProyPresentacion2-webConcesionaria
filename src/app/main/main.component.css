@@ -1,21 +1,24 @@
-
-
 main {
     background-color: rgb(192, 188, 188); 
-    padding: 1%;
-}
+    }
 #contenidoP {
-    background-image: url(/src/assets/logos/imgfondo.webp);
-    
+    background-image: url(/logos/imgfondo.webp); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    background-attachment: fixed;
+margin: 0%;
+padding: 0%;
 }
 #menuCatalogo {
+    height: fit-content;
     margin:2%;
     border-radius: 20px;
-background-color: rgb(161, 159, 159); 
-padding: 1%;
-font-family:Georgia, 'Times New Roman', Times, serif;
-color: black;
-}
+    background-color: rgb(161, 159, 159); 
+    padding-top: 3%;
+    padding-bottom: 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;}
 a {
     width: fit-content;
     margin: auto;
@@ -23,46 +26,85 @@ a {
     color: black;
     background-color: rgb(129, 125, 125);
     text-decoration: none;
-    font-weight: 600;}
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 500;
+}
 a:hover {
     background-color: rgb(47, 104, 228);
     font-weight: 700;
     color: white;
  font-style: italic;
- transform: scale(1.0);
-    }
-div h2{
-    font-weight: 500;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px; 
-}
+ transform: scale(1.0);}
 div h2 :hover {
     transform: scale(1.0);
     background-color: rgb(59, 224, 236);
-    font-weight: 700;
-}
-div h4 {
-    padding: 1%;
-    text-align: center;
-    text-decoration:underline;}
+    font-weight: 700;}
+
 #catalogo {
-    padding: 1%;}
+    background-color: rgb(168, 167, 167);  
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#catalogo h4 {
+    background-color: rgb(119, 116, 116); 
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none; 
+    text-align: center;
+    border-radius: 25px; 
+    width: 50%; 
+    margin: auto; 
+    margin-bottom: 2%; 
+    margin-top: 2%;
+    padding: 1%;
+}    
+#catalogo div img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
 #todos img {
     width: 20%;
     height: 40%;
     object-fit: cover;}
-#carouselExampleAutoplaying img{
-    width: fit-content;
-    object-fit: cover;
+#separador {
+    background-color: rgb(39, 39, 39); 
+    color: aliceblue; 
+    padding: 2%; 
+    box-sizing: content-box;
+}    
+.tituloh4 {
+    padding: 5%; 
+    font-weight: 700; 
+    font-size: xx-large;
 }
-#anuncio {
-    height: fit-content;
-    padding: 2%;}
-#anuncio img {
-    width: fit-content;
-    object-fit: cover;
+#comentarios{
+    margin-left: 1%;
 }
-#comentario {
-    width: 50%; 
-    margin: 2%;
+#mostrar1{
+    margin: 1%;
+    background-color: gray;
+    color: black;
+    font-weight: 600;
 }
+#mostrar1:hover {
+    background-color: rgb(47, 104, 228);
+    color: aliceblue;
+}
+#borrar2{
+    margin: 1%;
+    background-color: gray;
+    color: black;
+    font-weight: 600;
+}
+#borrar2:hover {
+    background-color: rgb(47, 104, 228);
+    color: aliceblue;
+}
+
+
+
+
