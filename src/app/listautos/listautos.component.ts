@@ -1,16 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-main',
+  selector: 'app-listautos',
   standalone: true,
-  imports: [CommonModule, RouterLink],
-  templateUrl: './main.component.html',
-  styleUrl: './main.component.css'
+  imports: [CommonModule],
+  templateUrl: './listautos.component.html',
+  styleUrl: './listautos.component.css'
 })
-export class MainComponent {
-
+export class ListautosComponent {
   enVenta =[
     {marca:"Volkswagen", modelo:"Vento Advance",aio:2010},
     {marca:"Volkswagen",modelo:"Vento Luxury",anio:2012},
@@ -49,26 +47,4 @@ export class MainComponent {
     {marca:"Fiat",modelo:"Punto Sporting",anio:2013},
     {marca:"Peugeot",modelo:"Allure Plus",anio:2014}
   ]
-  /* lista de imagenes de autos*/
-imgA1:string="autos/a1.png";
-imgA2:string="autos/a2.png";
-imgA3:string="autos/a3.png";
-imgA4:string="autos/a4.png";
-imgA5:string="autos/a5.png";
-imgA6:string="autos/a6.png";
-imgA7:string="autos/a7.png";
-imgA8:string="autos/a8.png";
-imgA9:string="autos/a9.png";
-imgA10:string="autos/a10.png";
-imgA11:string="autos/a11.png";
-imgA12:string="autos/a12.png";
-imgA13:string="autos/a13.png";
-imgA14:string="autos/a14.png";
-imgA15:string="autos/a15.png";
-imgA16:string="autos/a16.png";
-
-
-
-
 }
-

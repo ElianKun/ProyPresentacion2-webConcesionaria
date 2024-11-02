@@ -1,0 +1,25 @@
+<!--lista de vehiculos-->
+<div class="container text-center" id="conPrincipal"
+>
+    <div id="separador">
+    <h2 id="tituloh2">LISTA DE VEHICULOS</h2></div>
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <h4 class="tituloh4" >En venta</h4>
+        <section *ngFor="let autos of enVenta" class="flex justify-center">
+          <p style="font-weight: 500;">
+             MARCA: {{autos.marca}}, MODELO: {{autos.modelo}}, AÑO: {{autos.anio}}
+          </p>
+        </section>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <h4 class="tituloh4" >
+          Adquiridos recientemente</h4>
+        <section *ngFor="let autos of agregadosRecientemente" class="flex justify-center">
+          <p style="font-weight: 500;">
+             MARCA: {{autos.marca}}, MODELO: {{autos.modelo}}, AÑO: {{autos.anio}}
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>

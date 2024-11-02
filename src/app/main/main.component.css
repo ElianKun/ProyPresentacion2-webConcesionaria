@@ -1,6 +1,5 @@
 main {
-    background-color: rgb(192, 188, 188); 
-    
+    background-color: rgb(192, 188, 188);  
 }
 #contenidoP {
     background-image: url(/logos/imgfondo.webp); 
@@ -19,13 +18,13 @@ padding: 0%;
     padding-top: 3%;
     padding-bottom: 10%;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: black;}
-a {
-    width: fit-content;
-    margin: auto;
-    align-self:flex-start;
     color: black;
-    background-color: rgb(129, 125, 125);
+}
+a {
+    width: 55%;
+    margin: auto;
+    color: black;
+    background-color: rgb(122, 119, 119);
     text-decoration: none;
     font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 500;
@@ -35,15 +34,25 @@ a:hover {
     font-weight: 700;
     color: white;
  font-style: italic;
- transform: scale(1.0);}
+ transform: scale(1.0);
+}
 div h2 :hover {
     transform: scale(1.0);
     background-color: rgb(59, 224, 236);
-    font-weight: 700;}
+    font-weight: 700;
+}
+#botonesMenu{
+    object-fit: cover;
+    
+    display: flex; 
+    margin-left: 15%;
+}
 #catalogo {
     background-color: rgb(168, 167, 167);  
     margin-top: 2%;
     margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -69,40 +78,25 @@ div h2 :hover {
 #todos img {
     width: 20%;
     height: 40%;
-    object-fit: cover;}
-#separador {
-    background-color: rgb(39, 39, 39); 
-    color: aliceblue; 
-    padding: 2%; 
-    box-sizing: content-box;
-}    
-.tituloh4 {
-    padding: 5%; 
-    font-weight: 700; 
-    font-size: xx-large;
+    object-fit: cover;
 }
-#comentarios{
-    margin-left: 1%;
+#contenedorSecundario{
+background-color: rgb(192, 188, 188);
 }
-#mostrar1{
-    margin: 1%;
-    background-color: gray;
-    color: black;
-    font-weight: 600;
+#tituloSecundario{
+    width: 100%; 
+    margin-left: 30%; 
+    margin-top: 3%; 
+    font: 2em sans-serif;
 }
-#mostrar1:hover {
-    background-color: rgb(47, 104, 228);
-    color: aliceblue;
+.nav-item{
+    margin-left: 3%; 
+    margin-top: 2%;
 }
-#borrar2{
-    margin: 1%;
-    background-color: gray;
-    color: black;
-    font-weight: 600;
-}
-#borrar2:hover {
-    background-color: rgb(47, 104, 228);
-    color: aliceblue;
+.nav-link{
+    width: fit-content; 
+    font: 2em sans-serif; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 

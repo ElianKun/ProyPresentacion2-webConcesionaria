@@ -11,7 +11,17 @@ header{
     padding-bottom: 1%;
 }
 nav{
-    padding: 1%;
+    padding: 0%;
+}
+#tituloylogo{
+    font-size:xx-large; 
+    color:aliceblue; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    align-items: center; 
+}
+#logoEmp{
+    width:8%;
+    height:8%;
 }
 button{
     color: black;
