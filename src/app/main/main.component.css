@@ -14,11 +14,12 @@ padding: 0%;
     height: fit-content;
     margin:2%;
     border-radius: 20px;
-    background-color: rgb(161, 159, 159); 
+    background-color: rgb(43, 43, 44); 
     padding-top: 3%;
     padding-bottom: 10%;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: black;
+
+    color: rgb(255, 255, 255);
 }
 a {
     width: 55%;
@@ -42,10 +43,8 @@ div h2 :hover {
     font-weight: 700;
 }
 #botonesMenu{
-    object-fit: cover;
-    
-    display: flex; 
-    margin-left: 15%;
+    text-decoration: underline; 
+    margin-left: 0%;
 }
 #catalogo {
     background-color: rgb(168, 167, 167);  
@@ -86,8 +85,9 @@ background-color: rgb(192, 188, 188);
 #tituloSecundario{
     width: 100%; 
     margin-left: 30%; 
-    margin-top: 3%; 
+    margin-top: 1%; 
     font: 2em sans-serif;
+   
 }
 .nav-item{
     margin-left: 3%; 
