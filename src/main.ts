@@ -10,7 +10,7 @@ bootstrapApplication(AppComponent, {
   providers: [
     provideRouter(routes),
     provideHttpClient()  
-    // Asegúrate de que HttpClient esté correctamente registrado
+    
   ]
 })
   .catch((err) => console.error(err));
